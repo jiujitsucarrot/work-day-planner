@@ -34,15 +34,22 @@ THEN the saved events persist
 
 ## Series of Events
 
+With this challenge the goal was to make a work day planner that stated the current date, hours of operation for work (9am-5pm), and implement and operational save button where the content typed in the box will be saved to local storage. Immediately upon opening the starter code I realized that I was only given the first three hours. I then created the remaining work day hours for the planner. Then the past, present, and future classes needed to be implemented to each time slot. The application as the day progresses needed to reflect through the hours in the day. That is where the currentHour in script.js came into play. This made it so not only will it trigger the css coloring for the given class but it will remove the two unwanted classes and place the chosen class for that given hour. I then put the current date on the planner right underneath the header. To get the time, as well as the date I utilized API's from jQuery and dayjs. The final task was to add a listener for click events (activate the stubborn save button) and proceed to set and get the content placed on the page from local storage. 
+
 
 ## Sources 
 
+In this challenge I utilized a number of different sources to complete the acceptance criteria. I went back and revisited the course lectures from the week before, looked through my notes, Google, YouTube, tutoring session, office hours, reaching out to classmates, colleagues, and TA's. I used dayjs, and jQuery with the starter code that was provided. Pulled API's from https://jqueryui.com/ and https://day.js.org/.
+
 ## Screenshots
+
+* ![Alt text](<Screenshot 2023-07-20 at 10.35.38 PM.png>)
+* ![Alt text](<Screenshot 2023-07-20 at 10.35.53 PM.png>)
 
 ## Final Submission
 
-* 
-* 
+* https://jiujitsucarrot.github.io/work-day-planner/
+* https://github.com/jiujitsucarrot/work-day-planner
 
 ## Grading Requirements
 
